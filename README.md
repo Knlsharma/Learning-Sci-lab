@@ -1,3 +1,7 @@
 # Learning-Sci-lab
 
-<embed src="scilab.pdf" width="600" height="500" alt="pdf">
+<object data="scilab.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="scilab.pdf">
+        <p>Happy Learning</p>
+    </embed>
+</object>
