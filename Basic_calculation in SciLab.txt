@@ -1,0 +1,91 @@
+ ans  =
+
+   1.
+
+
+--> (10+5%i)(7+6%i)
+(10+5%i)(7+6%i)
+    ^~~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> (10+5%i)6%i
+(10+5%i)6%i
+    ^~~^
+Error: syntax error, unexpected identifier, expecting end of file
+
+--> clc
+
+--> (10+5*%i)6*%i
+(10+5*%i)6*%i
+         ^^
+Error: syntax error, unexpected integer, expecting end of file
+
+--> (10+5*%i)(6*%i)
+
+Invalid index.
+
+--> (10+5*%i)*(6*%i)
+ ans  =
+
+  -30. + 60.i
+
+
+--> %pi
+ %pi  = 
+
+   3.1415927
+
+
+--> pi
+
+Undefined variable: pi
+
+--> %eps
+ %eps  = 
+
+   2.220D-16
+
+
+--> 5.56d-7
+ ans  =
+
+   0.0000006
+
+
+--> 5.56d-4
+ ans  =
+
+   0.000556
+
+
+--> %e
+ %e  = 
+
+   2.7182818
+
+
+--> exp(1)
+ ans  =
+
+   2.7182818
+
+
+--> %e^2
+ ans  =
+
+   7.3890561
+
+
+--> exp(2)
+ ans  =
+
+   7.3890561
+
+
+--> log10(1e-23)
+ ans  =
+
+  -23.
+
+
+--> diary(0)
